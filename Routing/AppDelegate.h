@@ -1,3 +1,13 @@
+//          ______                                 ____     ____          ____     ____
+//         /  _   /                               /   /   ／   ／         /   /   ／   ／
+//        /  / /_/                               /   /  ／   ／          /   /  ／   ／
+//  _____/  /_____                              /   /_／   ／           /   /_／   ／
+// /____   ______/   _______   ___    ____     /         ／            /        ／
+//     /  / _____  / ____  /  /   \  /    \   /        ＼             /        ＼
+//    /  / /  ／  / /   / /  /     \/      \ /    ／ ＼   ＼          /   ／ ＼   ＼
+//   /  / / /   / /    / /  /  /\   /\    / /   ／    ＼   ＼       /   ／    ＼   ＼
+//  /  / / /   / /____/ /  /  / /__/ \   / /   /       ＼   ＼     /   /       ＼   ＼
+// /__/ /_/   /________/  /__/       /__/ /___/          ＼___＼  /___/          ＼___＼
 //
 //  AppDelegate.h
 //  Routing
@@ -7,9 +17,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (nonatomic, assign, readonly) UINavigationController *navigationController;
+@property (nonatomic, assign, readonly) RootViewController *rootViewController;
 
 @end

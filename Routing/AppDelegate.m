@@ -1,3 +1,13 @@
+//          ______                                 ____     ____          ____     ____
+//         /  _   /                               /   /   ／   ／         /   /   ／   ／
+//        /  / /_/                               /   /  ／   ／          /   /  ／   ／
+//  _____/  /_____                              /   /_／   ／           /   /_／   ／
+// /____   ______/   _______   ___    ____     /         ／            /        ／
+//     /  / _____  / ____  /  /   \  /    \   /        ＼             /        ＼
+//    /  / /  ／  / /   / /  /     \/      \ /    ／ ＼   ＼          /   ／ ＼   ＼
+//   /  / / /   / /    / /  /  /\   /\    / /   ／    ＼   ＼       /   ／    ＼   ＼
+//  /  / / /   / /____/ /  /  / /__/ \   / /   /       ＼   ＼     /   /       ＼   ＼
+// /__/ /_/   /________/  /__/       /__/ /___/          ＼___＼  /___/          ＼___＼
 //
 //  AppDelegate.m
 //  Routing
@@ -19,7 +29,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
+    
+    _rootViewController = [[RootViewController alloc] init];
+    _navigationController = [[UINavigationController alloc] initWithRootViewController:_rootViewController];
+    
+    self.window.rootViewController = _navigationController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

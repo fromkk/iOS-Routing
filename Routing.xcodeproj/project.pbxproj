@@ -16,6 +16,16 @@
 		4FBCF1C217A7395300B35B24 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FBCF1C117A7395300B35B24 /* Default.png */; };
 		4FBCF1C417A7395300B35B24 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FBCF1C317A7395300B35B24 /* Default@2x.png */; };
 		4FBCF1C617A7395300B35B24 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FBCF1C517A7395300B35B24 /* Default-568h@2x.png */; };
+		4FBCF1CD17A7396200B35B24 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBCF1CC17A7396200B35B24 /* MapKit.framework */; };
+		4FBCF1D117A7399500B35B24 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1D017A7399500B35B24 /* RootViewController.m */; };
+		4FBCF1D517A7473F00B35B24 /* NSURLBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1D417A7473F00B35B24 /* NSURLBlocks.m */; };
+		4FBCF1D917A747F700B35B24 /* NSDictionary+query.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1D817A747F700B35B24 /* NSDictionary+query.m */; };
+		4FBCF1DC17A7482300B35B24 /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1DB17A7482300B35B24 /* NSString+URL.m */; };
+		4FBCF1DF17A7491300B35B24 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1DE17A7491300B35B24 /* XMLReader.m */; };
+		4FBCF1E217A74B9800B35B24 /* NSDictionary+search.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1E117A74B9800B35B24 /* NSDictionary+search.m */; };
+		4FBCF1E717A74BB800B35B24 /* NSArray+toArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1E417A74BB800B35B24 /* NSArray+toArray.m */; };
+		4FBCF1E817A74BB800B35B24 /* NSDictionary+toArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBCF1E617A74BB800B35B24 /* NSDictionary+toArray.m */; };
+		4FBCF1EA17A74C9A00B35B24 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FBCF1E917A74C9A00B35B24 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +42,24 @@
 		4FBCF1C117A7395300B35B24 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4FBCF1C317A7395300B35B24 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4FBCF1C517A7395300B35B24 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4FBCF1CC17A7396200B35B24 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4FBCF1CF17A7399500B35B24 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = Classes/ViewController/RootViewController.h; sourceTree = "<group>"; };
+		4FBCF1D017A7399500B35B24 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = Classes/ViewController/RootViewController.m; sourceTree = "<group>"; };
+		4FBCF1D317A7473F00B35B24 /* NSURLBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLBlocks.h; sourceTree = "<group>"; };
+		4FBCF1D417A7473F00B35B24 /* NSURLBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLBlocks.m; sourceTree = "<group>"; };
+		4FBCF1D717A747F700B35B24 /* NSDictionary+query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+query.h"; sourceTree = "<group>"; };
+		4FBCF1D817A747F700B35B24 /* NSDictionary+query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+query.m"; sourceTree = "<group>"; };
+		4FBCF1DA17A7482300B35B24 /* NSString+URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URL.h"; sourceTree = "<group>"; };
+		4FBCF1DB17A7482300B35B24 /* NSString+URL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URL.m"; sourceTree = "<group>"; };
+		4FBCF1DD17A7491300B35B24 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		4FBCF1DE17A7491300B35B24 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		4FBCF1E017A74B9800B35B24 /* NSDictionary+search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+search.h"; sourceTree = "<group>"; };
+		4FBCF1E117A74B9800B35B24 /* NSDictionary+search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+search.m"; sourceTree = "<group>"; };
+		4FBCF1E317A74BB800B35B24 /* NSArray+toArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+toArray.h"; sourceTree = "<group>"; };
+		4FBCF1E417A74BB800B35B24 /* NSArray+toArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+toArray.m"; sourceTree = "<group>"; };
+		4FBCF1E517A74BB800B35B24 /* NSDictionary+toArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+toArray.h"; sourceTree = "<group>"; };
+		4FBCF1E617A74BB800B35B24 /* NSDictionary+toArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+toArray.m"; sourceTree = "<group>"; };
+		4FBCF1E917A74C9A00B35B24 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FBCF1EA17A74C9A00B35B24 /* CoreLocation.framework in Frameworks */,
+				4FBCF1CD17A7396200B35B24 /* MapKit.framework in Frameworks */,
 				4FBCF1B017A7395300B35B24 /* UIKit.framework in Frameworks */,
 				4FBCF1B217A7395300B35B24 /* Foundation.framework in Frameworks */,
 				4FBCF1B417A7395300B35B24 /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +81,10 @@
 		4FBCF1A317A7395300B35B24 = {
 			isa = PBXGroup;
 			children = (
+				4FBCF1EB17A759D800B35B24 /* Vendor */,
+				4FBCF1D617A747DB00B35B24 /* Category */,
+				4FBCF1D217A7473200B35B24 /* Common */,
+				4FBCF1CE17A7396C00B35B24 /* ViewController */,
 				4FBCF1B517A7395300B35B24 /* Routing */,
 				4FBCF1AE17A7395300B35B24 /* Frameworks */,
 				4FBCF1AD17A7395300B35B24 /* Products */,
@@ -68,6 +102,8 @@
 		4FBCF1AE17A7395300B35B24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4FBCF1E917A74C9A00B35B24 /* CoreLocation.framework */,
+				4FBCF1CC17A7396200B35B24 /* MapKit.framework */,
 				4FBCF1AF17A7395300B35B24 /* UIKit.framework */,
 				4FBCF1B117A7395300B35B24 /* Foundation.framework */,
 				4FBCF1B317A7395300B35B24 /* CoreGraphics.framework */,
@@ -97,6 +133,58 @@
 				4FBCF1C517A7395300B35B24 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FBCF1CE17A7396C00B35B24 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4FBCF1CF17A7399500B35B24 /* RootViewController.h */,
+				4FBCF1D017A7399500B35B24 /* RootViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		4FBCF1D217A7473200B35B24 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4FBCF1D317A7473F00B35B24 /* NSURLBlocks.h */,
+				4FBCF1D417A7473F00B35B24 /* NSURLBlocks.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		4FBCF1D617A747DB00B35B24 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4FBCF1D717A747F700B35B24 /* NSDictionary+query.h */,
+				4FBCF1D817A747F700B35B24 /* NSDictionary+query.m */,
+				4FBCF1DA17A7482300B35B24 /* NSString+URL.h */,
+				4FBCF1DB17A7482300B35B24 /* NSString+URL.m */,
+				4FBCF1E017A74B9800B35B24 /* NSDictionary+search.h */,
+				4FBCF1E117A74B9800B35B24 /* NSDictionary+search.m */,
+				4FBCF1E317A74BB800B35B24 /* NSArray+toArray.h */,
+				4FBCF1E417A74BB800B35B24 /* NSArray+toArray.m */,
+				4FBCF1E517A74BB800B35B24 /* NSDictionary+toArray.h */,
+				4FBCF1E617A74BB800B35B24 /* NSDictionary+toArray.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		4FBCF1EB17A759D800B35B24 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				4FBCF1EC17A759E100B35B24 /* XMLReader */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		4FBCF1EC17A759E100B35B24 /* XMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				4FBCF1DD17A7491300B35B24 /* XMLReader.h */,
+				4FBCF1DE17A7491300B35B24 /* XMLReader.m */,
+			);
+			name = XMLReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +254,14 @@
 			files = (
 				4FBCF1BC17A7395300B35B24 /* main.m in Sources */,
 				4FBCF1C017A7395300B35B24 /* AppDelegate.m in Sources */,
+				4FBCF1D117A7399500B35B24 /* RootViewController.m in Sources */,
+				4FBCF1D517A7473F00B35B24 /* NSURLBlocks.m in Sources */,
+				4FBCF1D917A747F700B35B24 /* NSDictionary+query.m in Sources */,
+				4FBCF1DC17A7482300B35B24 /* NSString+URL.m in Sources */,
+				4FBCF1DF17A7491300B35B24 /* XMLReader.m in Sources */,
+				4FBCF1E217A74B9800B35B24 /* NSDictionary+search.m in Sources */,
+				4FBCF1E717A74BB800B35B24 /* NSArray+toArray.m in Sources */,
+				4FBCF1E817A74BB800B35B24 /* NSDictionary+toArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +303,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -231,7 +327,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
